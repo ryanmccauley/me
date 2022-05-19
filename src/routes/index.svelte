@@ -10,7 +10,7 @@
     const github: string = "https://github.com/ryanmccauley";
     const discord: string = "https://discord.com/users/556928967077003275";
     const twitter: string = "https://twitter.com/ryanmccauley24";
-    const linkedin: string = "www.linkedin.com/in/ryanmccauley24";
+    const linkedin: string = "https://www.linkedin.com/in/ryanmccauley24";
 </script>
 
 <main
