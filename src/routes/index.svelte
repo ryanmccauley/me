@@ -91,7 +91,7 @@
                 >
             </a>
             <a
-                href="/resume.pdf"
+                href="/projects"
                 class="h3 flex flex-col gap-2 text-white font-bold bg-black p-8 rounded-2xl text-4xl
             transition ease-in-out duration-400 hover:scale-105"
             >
