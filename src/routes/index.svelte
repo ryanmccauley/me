@@ -66,7 +66,7 @@
             class="grid grid-cols-1 md:grid-cols-2 justify-center w-full gap-4"
         >
             <a
-                href="/resume.pdf"
+                href="/Resume.pdf"
                 class="h3 flex items-center gap-2 text-white font-bold bg-black p-8 rounded-2xl text-4xl
             hover:bg-white hover:text-black transition ease-in-out duration-400 hover:scale-105"
             >
