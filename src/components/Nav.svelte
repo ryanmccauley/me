@@ -8,13 +8,15 @@
         {
             name: "Home",
             href: "/",
-            isActive: true,
         },
         {
             name: "Resume",
             href: "/resume",
-            isActive: false,
         },
+        {
+            name: "Projects",
+            href: "/projects",
+        }
     ];
 </script>
 

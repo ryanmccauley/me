@@ -1,10 +1,8 @@
-<script lang="ts">
-import { onMount } from "svelte";
+<script>
+    import Link from "../components/Link.svelte";
 
-
-    onMount(() => {
-        window.location.href = '/';
-    })
 </script>
-
-<div class="min-h-screen bg-black"></div>
+<section class="">
+    This page does not exist!
+    <Link styling underlined href="/">Home</Link>
+</section>

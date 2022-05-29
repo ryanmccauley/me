@@ -5,14 +5,21 @@
     import "../app.css";
 
     let currentPage: string = "/";
+    let isBlobPage: boolean = $page.url.pathname.startsWith("/blobs/");
 
     $: {
         currentPage = $page.url.pathname;
     }
 </script>
 
-<Nav bind:currentPage={currentPage} />
-<div class="max-w-7xl mx-auto py-6 px-4">
+{#if isBlobPage}
     <slot />
-</div>
-<Footer />
+{:else}
+    <main class="flex flex-col min-h-screen justify-between">
+        <Nav bind:currentPage />
+        <div class="max-w-7xl mx-auto py-6 px-4 mb-auto w-full">
+            <slot />
+        </div>
+        <Footer />    
+    </main>
+{/if}

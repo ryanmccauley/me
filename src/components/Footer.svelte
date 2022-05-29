@@ -8,7 +8,7 @@
     import Link from "./Link.svelte";
 </script>
 
-<section class="w-100 bg-gray-100 flex flex-col items-center justify-center p-6 gap-2 border-t">
+<footer class="w-100 bg-gray-100 flex flex-col items-center justify-center p-6 gap-2 border-t">
     <div class="flex items-center gap-4">
         <a href="https://www.github.com/ryanmccauley/" class="h-8 text-gray-700">
             <FaGithub />
@@ -31,4 +31,4 @@
     </div>
     <p class="text-gray-400 font-light">Created by Ryan McCauley. Inspired by <Link styling href="https://www.ekzhang.com">Eric Zhang</Link>.</p>
     <Link class="text-gray-400 text-sm font-light" underlined href="https://ryanmccauley.goatcounter.com/">Page Analytics</Link>
-</section>
+</footer>
