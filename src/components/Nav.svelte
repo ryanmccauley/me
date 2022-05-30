@@ -22,7 +22,7 @@
 
 <section class="w-100 bg-gray-100 flex flex-col items-center justify-center p-6 gap-2 border-b">
     <h1 class="text-4xl font-serif font-bold">Ryan McCauley</h1>
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-4">
     {#each pages as page}
         <Link href={page.href} styling class="text-2xl font-light" underlined={page.href == currentPage}>
             {page.name}
