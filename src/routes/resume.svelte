@@ -89,8 +89,8 @@
             end: "Present",
             location: "Tallahassee, FL",
             descriptions: [
-                "Worked on the Citadel application team to develop new features on the backend (C# .NET) and frontend (VueJS)"
-            ],
+                "Worked with a team to create new features on the frontend using VueJS and on the backend using C# .NET.",
+            ]
         },
         {
             company: {
@@ -100,10 +100,38 @@
             role: "Software Engineer Intern",
             start: "February 2022",
             end: "May 2022",
+            location: "Boston, MA",
+            descriptions: [
+                "Worked with a team to implement new features on the frontend using React.",
+            ]
+        },
+        {
+            company: {
+                name: "Nomja",
+            },
+            role: "Founder",
+            start: "December 2020",
+            end: "September 2021",
             location: "Tallahassee, FL",
             descriptions: [
-                "React frontend"
-            ],
+                "Collaborated with other founders to create a B2B SaaS retail and restaurant software company.",
+                "Developed a full-stack web application written with Go, JavaScript & Python and implemented MongoDB, Redis, ReactJS & Twilio that allowed users to manage their accounts."
+            ]
+        }
+    ];
+
+    const volunteering = [
+        {
+            name: "Student Volunteer",
+            location: "Leon County Schools",
+            descriptions: ["Assisted a teacher at Montford Middle School with grading and creating course work."],
+            timePeriod: "December 2019 - Present",
+        },
+        {
+            name: "Tutor & Web Developer",
+            location: "Helping Hand Tutoring",
+            descriptions: ["Constructed and maintained a web application using ReactJS that allows students to sign up for tutoring sessions for various subjects."],
+            timePeriod: "May 2020 - Present",
         },
     ];
 
@@ -246,7 +274,7 @@
         {#each experiences as experience}
         <div class="py-2">
             <div class="flex items-center justify-between font-serif text-xl">
-                <h3>{ experience.role } at <Link styling href={experience.company.website}>{experience.company.name}</Link></h3>
+                <h3>{ experience.role } at <Link styling={experience.company.website != undefined} href={experience.company.website}>{experience.company.name}</Link></h3>
                 <div class="flex items-center gap-2 text-lg">
                     <p class="italic">{ experience.start } - { experience.end }</p>
                     |
@@ -263,6 +291,21 @@
     </div>
     <div class="py-4 border-b">
         <h2 class="text-3xl font-serif pb-2">Volunteering</h2>
+        {#each volunteering as volunteer}
+        <div class="py-2">
+            <div class="flex items-center justify-between font-serif text-xl">
+                <h3>{ volunteer.name } at { volunteer.location }</h3>
+                <div class="flex items-center gap-2 text-lg">
+                    <p class="italic">{ volunteer.timePeriod }</p>
+                </div>
+            </div>
+            <ul class="list-disc mx-8">
+                {#each volunteer.descriptions as description}
+                <li>{ description }</li>
+                {/each}
+            </ul>
+        </div>
+        {/each}
     </div>
     <div class="py-4">
         <h2 class="text-3xl font-serif pb-2">Awards</h2>

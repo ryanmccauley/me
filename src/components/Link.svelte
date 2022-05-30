@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let href: string;
+    export let href: string = undefined;
     export let styling: boolean = false;
     export let underlined: boolean = false;
     
