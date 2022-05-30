@@ -12,6 +12,10 @@
         @apply text-blue-500;
     }
 
+    .link:hover {
+        @apply underline;
+    }
+
     .underlined {
         @apply underline;
     }

@@ -22,7 +22,7 @@
         <a href="https://www.linkedin.com/in/ryanmccauley24/" class="h-8 text-blue-900">
             <FaLinkedin />
         </a>
-        <a href="https://discord.com/users/556928967077003275/" class="h-8 text-indigo-500">
+        <a href="https://discord.com/users/556928967077003275/" class="h-8 text-indigo-700">
             <FaDiscord />
         </a>
         <a href="mailto:ryanmcly@gmail.com" class="h-8 text-gray-700">
