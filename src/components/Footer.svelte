@@ -30,5 +30,5 @@
         </a>
     </div>
     <p class="text-gray-400 font-light">Created by Ryan McCauley. Inspired by <Link styling href="https://www.ekzhang.com">Eric Zhang</Link>.</p>
-    <Link class="text-gray-400 text-sm font-light" underlined href="https://ryanmccauley.goatcounter.com/">Page Analytics</Link>
+    <Link class="text-gray-400 text-sm font-light" underlined href="https://app.beampipe.io/domain/ryanmccauley.me">Page Analytics</Link>
 </footer>
