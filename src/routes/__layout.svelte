@@ -10,6 +10,7 @@
     $: {
         currentPage = $page.url.pathname;
     }
+
 </script>
 
 <svelte:head>

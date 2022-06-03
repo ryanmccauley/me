@@ -24,7 +24,7 @@
     <h1 class="text-4xl font-serif font-bold">Ryan McCauley</h1>
     <div class="flex items-center gap-4">
     {#each pages as page}
-        <Link href={page.href} styling class="text-2xl font-light" underlined={page.href == currentPage}>
+        <Link href={page.href} styling class="text-2xl font-light" underlined={page.href === currentPage}>
             {page.name}
         </Link>
         <!-- <a href={page.href} class="text-blue-600 text-2xl font-light" class:link_underline="{currentPage==page.href}">
