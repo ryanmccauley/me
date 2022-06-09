@@ -9,8 +9,8 @@
 </script>
 
 <footer class="w-100 bg-gray-100 flex flex-col items-center justify-center p-6 gap-2 border-t">
-    <div class="flex items-center gap-4">
-        <a href="https://www.github.com/ryanmccauley/" class="h-8 text-gray-700">
+    <div class="flex items-center gap-4 opacity-80">
+        <a href="https://www.github.com/ryanmccauley/" class="h-8 text-black">
             <FaGithub />
         </a>
         <a href="https://www.instagram.com/ryanmccauley24/" class="h-8 text-pink-600">
