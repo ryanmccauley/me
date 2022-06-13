@@ -17,6 +17,10 @@
     ]
 </script>
 
+<svelte:head>
+    <title>Ryan McCauley - Projects</title>
+</svelte:head>
+
 <section>
     <h2 class="text-3xl font-serif pb-2">Projects</h2>
     <div class="flex flex-col gap-2">

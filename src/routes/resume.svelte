@@ -228,8 +228,9 @@
     });
 </script>
 
-<style>
-</style>
+<svelte:head>
+    <title>Ryan McCauley - Resume</title>
+</svelte:head>
 
 <section>
     <div class="border-b py-4">
