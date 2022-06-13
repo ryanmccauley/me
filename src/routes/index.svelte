@@ -42,7 +42,7 @@
         </div>
         <h2 class="text-2xl font-serif">Skills</h2>
         <p class="text-lg">During my journey programming, I have learned many languages and technologies in various regions of computer science which include:</p>
-        <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-2 mb-6">
+        <div class="pt-4 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-2 mb-6">
             {#each technologies as technology}
                 <p class="border px-2 py-1 bg-gray-100">{ technology }</p>
             {/each}
