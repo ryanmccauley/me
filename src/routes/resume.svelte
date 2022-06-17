@@ -55,7 +55,7 @@
         },
         {
             name: "Stanford University",
-            subprogram: "Summer Session",
+            subprogram: "High School Summer College",
             location: "Online",
             timePeriod: "June 2021 - August 2021",
             gpa: {
