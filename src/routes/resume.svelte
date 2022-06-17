@@ -1,5 +1,8 @@
 <script lang="ts">
     import Link from "../components/Link.svelte";
+    import IoIosCloudDownload from 'svelte-icons/io/IoIosCloudDownload.svelte'
+
+    const googleDocs = "https://docs.google.com/document/d/1R4SxnESqQNiC9AaZpAU8EgE45jBJC0BDm1YaXYja61w/edit?usp=sharing";
 
     const educations = [
         {
@@ -234,6 +237,14 @@
 
 <section>
     <div class="border-b py-4">
+        <div class="flex items-center justify-end w-full">
+            <a href={googleDocs} type="button" class="border border-gray-600 font-sans text-gray-600 rounded-full px-2 flex items-center gap-2">
+                <span class="w-4 h-4 block">
+                    <IoIosCloudDownload />
+                </span>
+                Download
+            </a>
+        </div>
         <h2 class="text-3xl font-serif pb-2">Education</h2>
         {#each educations as school}
         <div class="py-2">
