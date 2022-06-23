@@ -61,11 +61,11 @@
     picomatch "^2.2.2"
 
 "@sveltejs/adapter-auto@next":
-  version "1.0.0-next.50"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.50.tgz#b072dd95210d1e6a0cef54106a3efc138a147362"
+  version "1.0.0-next.51"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.51.tgz#36e938f1294fc2ebbbe9d3c16362fc58522d1a94"
   dependencies:
     "@sveltejs/adapter-cloudflare" "1.0.0-next.23"
-    "@sveltejs/adapter-netlify" "1.0.0-next.64"
+    "@sveltejs/adapter-netlify" "1.0.0-next.65"
     "@sveltejs/adapter-vercel" "1.0.0-next.58"
 
 "@sveltejs/adapter-cloudflare@1.0.0-next.23":
@@ -75,9 +75,9 @@
     esbuild "^0.14.42"
     worktop "0.8.0-next.14"
 
-"@sveltejs/adapter-netlify@1.0.0-next.64":
-  version "1.0.0-next.64"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.64.tgz#cb7c4f61b2accd67ae4892126850c39ab796cd4f"
+"@sveltejs/adapter-netlify@1.0.0-next.65":
+  version "1.0.0-next.65"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.65.tgz#627a0201ffc99d226f3dced2f2087cca3d5612aa"
   dependencies:
     "@iarna/toml" "^2.2.5"
     esbuild "^0.14.42"
