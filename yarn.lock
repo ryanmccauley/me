@@ -61,12 +61,12 @@
     picomatch "^2.2.2"
 
 "@sveltejs/adapter-auto@next":
-  version "1.0.0-next.51"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.51.tgz#36e938f1294fc2ebbbe9d3c16362fc58522d1a94"
+  version "1.0.0-next.52"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.52.tgz#6894ff081efc6d7844ad05a818ba11d45a146935"
   dependencies:
     "@sveltejs/adapter-cloudflare" "1.0.0-next.23"
     "@sveltejs/adapter-netlify" "1.0.0-next.65"
-    "@sveltejs/adapter-vercel" "1.0.0-next.58"
+    "@sveltejs/adapter-vercel" "1.0.0-next.59"
 
 "@sveltejs/adapter-cloudflare@1.0.0-next.23":
   version "1.0.0-next.23"
@@ -84,11 +84,11 @@
     set-cookie-parser "^2.4.8"
     tiny-glob "^0.2.9"
 
-"@sveltejs/adapter-vercel@1.0.0-next.58":
-  version "1.0.0-next.58"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.58.tgz#1ccd0cb464984f5bd59d700a91bedae93a35e70e"
+"@sveltejs/adapter-vercel@1.0.0-next.59":
+  version "1.0.0-next.59"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.59.tgz#05e1139b39ffb2b7b73ac361a3b4a881512cd420"
   dependencies:
-    "@vercel/nft" "^0.19.1"
+    "@vercel/nft" "^0.20.0"
     esbuild "^0.14.42"
 
 "@sveltejs/kit@next":
@@ -137,9 +137,9 @@
   dependencies:
     "@types/node" "*"
 
-"@vercel/nft@^0.19.1":
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.19.1.tgz#dcd3c20d7ef14d2050244e7d5edcfecc7303dd46"
+"@vercel/nft@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.20.0.tgz#43b1027599f9041b27b9f6ed132f632c53bc7ea1"
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.5"
     acorn "^8.6.0"
