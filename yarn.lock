@@ -61,12 +61,12 @@
     picomatch "^2.2.2"
 
 "@sveltejs/adapter-auto@next":
-  version "1.0.0-next.50"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.50.tgz#b072dd95210d1e6a0cef54106a3efc138a147362"
+  version "1.0.0-next.52"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.52.tgz#6894ff081efc6d7844ad05a818ba11d45a146935"
   dependencies:
     "@sveltejs/adapter-cloudflare" "1.0.0-next.23"
-    "@sveltejs/adapter-netlify" "1.0.0-next.64"
-    "@sveltejs/adapter-vercel" "1.0.0-next.58"
+    "@sveltejs/adapter-netlify" "1.0.0-next.65"
+    "@sveltejs/adapter-vercel" "1.0.0-next.59"
 
 "@sveltejs/adapter-cloudflare@1.0.0-next.23":
   version "1.0.0-next.23"
@@ -75,20 +75,20 @@
     esbuild "^0.14.42"
     worktop "0.8.0-next.14"
 
-"@sveltejs/adapter-netlify@1.0.0-next.64":
-  version "1.0.0-next.64"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.64.tgz#cb7c4f61b2accd67ae4892126850c39ab796cd4f"
+"@sveltejs/adapter-netlify@1.0.0-next.65":
+  version "1.0.0-next.65"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.65.tgz#627a0201ffc99d226f3dced2f2087cca3d5612aa"
   dependencies:
     "@iarna/toml" "^2.2.5"
     esbuild "^0.14.42"
     set-cookie-parser "^2.4.8"
     tiny-glob "^0.2.9"
 
-"@sveltejs/adapter-vercel@1.0.0-next.58":
-  version "1.0.0-next.58"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.58.tgz#1ccd0cb464984f5bd59d700a91bedae93a35e70e"
+"@sveltejs/adapter-vercel@1.0.0-next.59":
+  version "1.0.0-next.59"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.59.tgz#05e1139b39ffb2b7b73ac361a3b4a881512cd420"
   dependencies:
-    "@vercel/nft" "^0.19.1"
+    "@vercel/nft" "^0.20.0"
     esbuild "^0.14.42"
 
 "@sveltejs/kit@next":
@@ -137,9 +137,9 @@
   dependencies:
     "@types/node" "*"
 
-"@vercel/nft@^0.19.1":
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.19.1.tgz#dcd3c20d7ef14d2050244e7d5edcfecc7303dd46"
+"@vercel/nft@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.20.0.tgz#43b1027599f9041b27b9f6ed132f632c53bc7ea1"
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.5"
     acorn "^8.6.0"
@@ -1441,9 +1441,9 @@ svelte@^3.44.0:
   version "3.48.0"
   resolved "https://registry.npmjs.org/svelte/-/svelte-3.48.0.tgz"
 
-tailwindcss@^3.1.3:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.1.3.tgz#b9ef2c1ae537c339679e8e89635af8e143d1c7eb"
+tailwindcss@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.1.4.tgz#64b09059805505902139fa805d97046080bd90b9"
   dependencies:
     arg "^5.0.2"
     chokidar "^3.5.3"
@@ -1512,9 +1512,9 @@ tslib@^2.3.1:
   version "2.4.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
 
-typescript@*, typescript@~4.7.3:
-  version "4.7.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.3.tgz#8364b502d5257b540f9de4c40be84c98e23a129d"
+typescript@*, typescript@~4.7.4:
+  version "4.7.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
