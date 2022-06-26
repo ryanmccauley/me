@@ -31,7 +31,7 @@
     </div>
     <div class="flex flex-col md:flex-row gap-1 items-center text-gray-400 font-light">
         <p>Created by Ryan McCauley.</p>
-        <p>Inspired by <Link styling href="https://www.ekzhang.com">Eric Zhang</Link>.</p>
+        <p>Design inspired by <Link styling href="https://www.ekzhang.com">Eric Zhang</Link>.</p>
     </div>
     <Link class="text-gray-400 text-sm font-light" underlined href="https://app.beampipe.io/domain/ryanmccauley.me">Page Analytics</Link>
 </footer>

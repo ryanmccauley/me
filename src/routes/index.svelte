@@ -23,10 +23,14 @@
     ]
 </script>
 
+<svelte:head>
+    <title>Ryan McCauley - Home</title>
+</svelte:head>
+
 <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-4">
     <div class="flex flex-col">
-        <div class="mb-6 flex space-between items-center gap-6">
-            <img class="w-1/2 lg:w-1/4" src="https://avatars.githubusercontent.com/u/69946731?v=4" alt="Picture of me!" />
+        <div class="mb-6 flex flex-col sm:flex-row space-between items-center gap-6">
+            <img class="sm:w-1/3 lg:w-1/4" src="https://avatars.githubusercontent.com/u/69946731?v=4" alt="Picture of me!" />
             <div>
                 <h2 class="text-3xl font-serif">About</h2>
                 <p class="text-lg mb-6">
