@@ -61,16 +61,16 @@
     picomatch "^2.2.2"
 
 "@sveltejs/adapter-auto@next":
-  version "1.0.0-next.53"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.53.tgz#22c27c3db0c5849a7858e413bac84d56d81acc89"
+  version "1.0.0-next.54"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.54.tgz#c9a25efd326430f3cff7bc69131daae352ffc217"
   dependencies:
-    "@sveltejs/adapter-cloudflare" "1.0.0-next.24"
+    "@sveltejs/adapter-cloudflare" "1.0.0-next.25"
     "@sveltejs/adapter-netlify" "1.0.0-next.66"
     "@sveltejs/adapter-vercel" "1.0.0-next.59"
 
-"@sveltejs/adapter-cloudflare@1.0.0-next.24":
-  version "1.0.0-next.24"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.24.tgz#a53695671cc4eeae07e1846fdc7e7cd00c48e930"
+"@sveltejs/adapter-cloudflare@1.0.0-next.25":
+  version "1.0.0-next.25"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.25.tgz#088291bc355f0a5b8114d6e5cbfa75dd3fc714ed"
   dependencies:
     esbuild "^0.14.42"
     worktop "0.8.0-next.14"
