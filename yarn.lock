@@ -111,9 +111,9 @@
     magic-string "^0.26.1"
     svelte-hmr "^0.14.11"
 
-"@tailwindcss/typography@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.5.2.tgz"
+"@tailwindcss/typography@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.5.3.tgz#80c3419db470cc34b0d1442d05d82a1984bc66b7"
   dependencies:
     lodash.castarray "^4.4.0"
     lodash.isplainobject "^4.0.6"
