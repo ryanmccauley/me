@@ -10,7 +10,7 @@
             location: "Tallahassee, FL",
             timePeriod: "August 2019 - Present",
             gpa: {
-                value: "4.58",
+                value: "4.61",
                 scale: "4.0",
             },
             activities: "Coding Club (President), Cybersecurity Club (Vice President) Cubing Club (Vice President), VEX Robotics Club (Vice President) Inter Club Council (Webmaster), Mu Alpha Theta (Webmaster), Wharton Investment Club (Webmaster), App Development Club (Lead Developer), Chemistry Club (Secretary)",
