@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@cloudflare/workers-types@^3.14.0":
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-3.14.1.tgz#8927ad8aa4e4cdd42d25793148337ed04f927021"
+
 "@iarna/toml@^2.2.5":
   version "2.2.5"
   resolved "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz"
@@ -61,32 +65,33 @@
     picomatch "^2.2.2"
 
 "@sveltejs/adapter-auto@next":
-  version "1.0.0-next.54"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.54.tgz#c9a25efd326430f3cff7bc69131daae352ffc217"
+  version "1.0.0-next.59"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.59.tgz#a6534c1f414609397e1264544f7a8a85ccd00923"
   dependencies:
-    "@sveltejs/adapter-cloudflare" "1.0.0-next.25"
-    "@sveltejs/adapter-netlify" "1.0.0-next.66"
-    "@sveltejs/adapter-vercel" "1.0.0-next.59"
+    "@sveltejs/adapter-cloudflare" "1.0.0-next.28"
+    "@sveltejs/adapter-netlify" "1.0.0-next.68"
+    "@sveltejs/adapter-vercel" "1.0.0-next.61"
 
-"@sveltejs/adapter-cloudflare@1.0.0-next.25":
-  version "1.0.0-next.25"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.25.tgz#088291bc355f0a5b8114d6e5cbfa75dd3fc714ed"
+"@sveltejs/adapter-cloudflare@1.0.0-next.28":
+  version "1.0.0-next.28"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.28.tgz#97dbe6e8ca93c68ec973d7f7f39bdf16dae71a32"
   dependencies:
+    "@cloudflare/workers-types" "^3.14.0"
     esbuild "^0.14.42"
     worktop "0.8.0-next.14"
 
-"@sveltejs/adapter-netlify@1.0.0-next.66":
-  version "1.0.0-next.66"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.66.tgz#55c1bf03af3a8d38afaacaeacec766043d81fb5f"
+"@sveltejs/adapter-netlify@1.0.0-next.68":
+  version "1.0.0-next.68"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.68.tgz#3134c80518f67bb9a7bd7bc3ff51be6259e295a8"
   dependencies:
     "@iarna/toml" "^2.2.5"
     esbuild "^0.14.42"
     set-cookie-parser "^2.4.8"
     tiny-glob "^0.2.9"
 
-"@sveltejs/adapter-vercel@1.0.0-next.59":
-  version "1.0.0-next.59"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.59.tgz#05e1139b39ffb2b7b73ac361a3b4a881512cd420"
+"@sveltejs/adapter-vercel@1.0.0-next.61":
+  version "1.0.0-next.61"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.61.tgz#492e3983aecefd4456dfb8de99bdff84554c2bff"
   dependencies:
     "@vercel/nft" "^0.20.0"
     esbuild "^0.14.42"
