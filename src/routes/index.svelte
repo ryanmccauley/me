@@ -1,60 +1,57 @@
-<script>
-    import Link from "../components/Link.svelte";
+<script lang="ts">
+    import FaGithub from "svelte-icons/fa/FaGithub.svelte";
+    import FaInstagram from "svelte-icons/fa/FaInstagram.svelte";
+    import FaTwitter from "svelte-icons/fa/FaTwitter.svelte";
+    import FaEnvelope from "svelte-icons/fa/FaEnvelope.svelte";
+    import FaDiscord from "svelte-icons/fa/FaDiscord.svelte";
+    import FaLinkedin from "svelte-icons/fa/FaLinkedin.svelte";
 
-    const technologies = [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Svelte",
-        "Vue",
-        "TailwindCSS",
-        "Bootstrap",
-        "NodeJS",
-        "Python",
-        "Java",
-        "Go",
-        "C++",
-        "SQL",
-        "MongoDB",
-        "Redis",
-        "CassandraDB",
-        "AWS & GCP"
-    ]
+    const RESUME = "https://docs.google.com/document/d/1R4SxnESqQNiC9AaZpAU8EgE45jBJC0BDm1YaXYja61w/edit?usp=sharing";
+    const EMAIL = "mccauleyr.com";
 </script>
 
-<svelte:head>
-    <title>Ryan McCauley - Home</title>
-</svelte:head>
-
-<div class="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-4">
-    <div class="flex flex-col">
-        <div class="mb-6 flex flex-col sm:flex-row space-between items-center gap-6">
-            <img class="sm:w-1/3 lg:w-1/4" src="https://avatars.githubusercontent.com/u/69946731?v=4" alt="Picture of me!" />
-            <div>
-                <h2 class="text-3xl font-serif">About</h2>
-                <p class="text-lg mb-6">
-                    Hi, my name is Ryan McCauley and I am highly passionate about programming. Currently I am a software engineer at
-                    <Link styling underlined href="https://fandisentinel.com/">F&I Sentinel</Link>
-                    and a student at Lawton Chiles High School. I wrote my first line of code when I was 11, ~6 years ago.
-                </p>
-                <h2 class="text-2xl font-serif">Interests</h2>
-                <p class="text-lg">In my free time, I love to create various projects and compete in programming contests. Since starting high school,
-                    I have competed in many competitions including: USA Computing Olympiad, Carnegie Mellon Informatics and Mathematics Competition, Florida State
-                    University ACM Programming Contest, and many others.</p>
-            </div>
+<section class="max-w-7xl mx-auto py-12 flex flex-col gap-16">
+    <div class="flex flex-col items-center gap-3">
+        <img class="w-1/5 rounded-full shadow" src="assets/head.jpeg" alt="Me" />
+        <h1 class="font-serif font-bold text-4xl">Ryan McCauley</h1>
+        <div class="flex items-center gap-4 opacity-80">
+            <a href="https://www.github.com/ryanmccauley/" class="h-8 text-black hover:text-gray-700">
+                <FaGithub />
+            </a>
+            <a href="https://www.instagram.com/ryanmccauley24/" class="h-8 text-pink-600 hover:text-pink-400">
+                <FaInstagram />
+            </a>
+            <a href="https://www.twitter.com/ryanmccauley24/" class="h-8 text-sky-500 hover:text-sky-300">
+                <FaTwitter />
+            </a>
+            <a href="https://www.linkedin.com/in/ryanmccauley24/" class="h-8 text-blue-900 hover:text-blue-700">
+                <FaLinkedin />
+            </a>
+            <a href="https://discord.com/users/556928967077003275/" class="h-8 text-indigo-700 hover:text-indigo-500">
+                <FaDiscord />
+            </a>
+            <a href="mailto:ryan@mccauleyr.com" class="h-8 text-gray-700 hover:text-gray-500">
+                <FaEnvelope />
+            </a>
         </div>
-        <h2 class="text-2xl font-serif">Skills</h2>
-        <p class="text-lg">During my journey programming, I have learned many languages and technologies in various regions of computer science which include:</p>
-        <div class="pt-4 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-2 mb-6">
-            {#each technologies as technology}
-                <p class="border px-2 py-1 bg-gray-100">{ technology }</p>
-            {/each}
-        </div>
-        <p class="text-lg">If you are interested in working with me, email me at
-            <Link styling underlined href="mailto:ryanmcly@gmail.com">
-                ryanmcly@gmail.com
-            </Link>
+    </div>
+    <div class="flex flex-col items-center gap-2">
+        <h2 class="font-serif font-bold text-2xl">About Me</h2>
+        <p class="text-justify">
+            I am a highly motivated person spending my time working on various projects. I enjoy working with other people and have been programming
+            since I was 11, about { new Date().getFullYear() - 2015 } years ago. I currently live in Tallahassee, FL where I work as a software engineer at F&I Sentinel
+            responsible for working with a team to build their frontend application with VueJS and backend with C#. In my free time, I love to create fun projects and compete
+            in programming contests. Since starting high school, I have competed in many competitions including:
+            USA Computing Olympiad, Carnegie Mellon Informatics and Mathematics Competition, Florida State University ACM Programming Contest, and many others. Since I have started
+            programming, I have accrued knowledge and dabbled in different programming technologies and frameworks including Java, JavaScript, TypeScript, C++, C#, Go, SQL,
+            PHP, Python, HTML, CSS, NodeJS, React, Svelte, Vue, MySQL, MongoDB, Redis, CassandraDB, AWS & GCP.
         </p>
     </div>
-</div>
+    <div class="flex flex-col items-center gap-2">
+        <h2 class="font-serif text-xl">Interested in working with me?</h2>
+        <div class="flex items-center justify-center gap-2 w-1/2">
+            <a class="font-medium text-white bg-blue-600 hover:bg-blue-500 rounded-2xl px-4 py-1 w-36 text-center" href={`mailto:${EMAIL}`}>Email</a>
+            <a class="font-medium text-blue-600 hover:text-blue-500 border border-blue-600 hover:border-blue-500 rounded-2xl px-4 py-1 w-36 text-center" href={RESUME}>Resume</a>
+        </div>
+    </div>
+</section>
