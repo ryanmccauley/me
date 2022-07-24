@@ -10,7 +10,7 @@
     const EMAIL = "mccauleyr.com";
 </script>
 
-<section class="max-w-7xl mx-auto py-12 flex flex-col gap-16">
+<section class="max-w-7xl mx-auto py-12 px-4 flex flex-col gap-16">
     <div class="flex flex-col items-center gap-3">
         <img class="w-1/5 rounded-full shadow" src="assets/head.jpeg" alt="Me" />
         <h1 class="font-serif font-bold text-4xl">Ryan McCauley</h1>
